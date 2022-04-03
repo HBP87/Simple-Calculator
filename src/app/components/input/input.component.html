@@ -1,0 +1,95 @@
+<div class="row">
+  <div class="col-xs-3 col-md-3">
+    <button class="btn btn-outline-primary" (click)="append('(')">(</button>
+  </div>
+  <div class="col-xs-3 col-md-3">
+    <button class="btn btn-outline-primary" (click)="append(')')">)</button>
+  </div>
+  <div class="col-xs-3 col-md-3">
+    <button class="btn btn-outline-primary" (click)="append(',')">,</button>
+  </div>
+  <div class="col-xs-3 col-md-3">
+    <button class="btn btn-danger" (click)="clearScreen()">AC</button>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-3 col-md-3">
+    <button class="btn btn-outline-primary" (click)="append('log(')">
+      log
+    </button>
+  </div>
+
+  <div class="col-xs-3 col-md-3">
+    <button class="btn btn-outline-primary" (click)="append('cos(')">
+      cos
+    </button>
+  </div>
+  <div class="col-xs-3 col-md-3">
+    <button class="btn btn-outline-primary" (click)="append('sin(')">
+      sin
+    </button>
+  </div>
+  <div class="col-xs-3 col-md-3">
+    <button class="btn btn-outline-primary" (click)="append('tan(')">
+      tan
+    </button>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-3 col-md-3">
+    <button class="btn btn-outline-primary" (click)="append(7)">7</button>
+  </div>
+  <div class="col-xs-3 col-md-3">
+    <button class="btn btn-outline-primary" (click)="append(8)">8</button>
+  </div>
+  <div class="col-xs-3 col-md-3">
+    <button class="btn btn-outline-primary" (click)="append(9)">9</button>
+  </div>
+  <div class="col-xs-3 col-md-3">
+    <button class="btn btn-outline-primary" (click)="append('/')">/</button>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-3 col-md-3">
+    <button class="btn btn-outline-primary" (click)="append(4)">4</button>
+  </div>
+  <div class="col-xs-3 col-md-3">
+    <button class="btn btn-outline-primary" (click)="append(5)">5</button>
+  </div>
+  <div class="col-xs-3 col-md-3">
+    <button class="btn btn-outline-primary" (click)="append(6)">6</button>
+  </div>
+  <div class="col-xs-3 col-md-3">
+    <button class="btn btn-outline-primary" (click)="append('*')">X</button>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-3 col-md-3">
+    <button class="btn btn-outline-primary" (click)="append(1)">1</button>
+  </div>
+  <div class="col-xs-3 col-md-3">
+    <button class="btn btn-outline-primary" (click)="append(2)">2</button>
+  </div>
+  <div class="col-xs-3 col-md-3">
+    <button class="btn btn-outline-primary" (click)="append(3)">3</button>
+  </div>
+  <div class="col-xs-3 col-md-3">
+    <button class="btn btn-outline-primary" (click)="append('-')">-</button>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-3 col-md-3">
+    <button class="btn btn-outline-primary" (click)="append('.')">.</button>
+  </div>
+  <div class="col-xs-3 col-md-3">
+    <button class="btn btn-outline-primary" (click)="append(0)">0</button>
+  </div>
+  <div class="col-xs-3 col-md-3">
+    <button class="btn btn-success" (click)="result()">=</button>
+  </div>
+  <div class="col-xs-3 col-md-3">
+    <button class="btn btn-outline-primary" (click)="append('+')">+</button>
+  </div>
+</div>

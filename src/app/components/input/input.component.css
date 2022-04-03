@@ -1,0 +1,8 @@
+.row {
+  margin: 5px;
+}
+@media (min-width: 767px) {
+  .btn {
+    width: 100%;
+  }
+}
